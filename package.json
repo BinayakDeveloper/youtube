@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Backend For Youtube",
   "main": "script.js",
-  "engines": {
-    "node": "18.x"
-  },
   "scripts": {
     "start": "node ./script.js"
   },
