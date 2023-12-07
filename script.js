@@ -65,10 +65,6 @@ app.post("/userData", (req, res) => {
   userData(req, res, database);
 });
 
-app.post("/allId", async (req, res) => {
-  AllId(req, res, database);
-});
-
 app.post("/addId", (req, res) => {
   AddId(req, res, database);
 });
