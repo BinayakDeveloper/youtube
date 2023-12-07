@@ -19,7 +19,7 @@ async function userData(req, res, database) {
       data: {
         name: user.name,
         email: user.email,
-        id: user.videoId,
+        videoId: user.videoId,
       },
     });
   } catch {

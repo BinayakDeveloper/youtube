@@ -24,7 +24,6 @@ const register = require("./account operation/register.js");
 const login = require("./account operation/login.js");
 const userData = require("./account operation/userData.js");
 const AddId = require("./account operation/AddId.js");
-const AllId = require("./account operation/AllId.js");
 const DeleteId = require("./account operation/DeleteId.js");
 
 function authorize(req, res, next) {
