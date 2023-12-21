@@ -3,7 +3,8 @@ const jwt = require("jsonwebtoken");
 
 mongoose
   .connect(
-    "mongodb+srv://admin:admin@cluster0.udfwpx5.mongodb.net/?retryWrites=true&w=majority",
+    // "mongodb+srv://admin:admin@cluster0.udfwpx5.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb://0.0.0.0:27017",
     {
       dbName: "youtube",
     }
